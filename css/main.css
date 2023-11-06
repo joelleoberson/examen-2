@@ -43,6 +43,78 @@ video {
   margin-top: 16px;
 }
 
+header {
+  background: #255299;
+}
+
+.h1 {
+  background-image: url(../img/fond_titre.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 177px 320px;
+}
+
+h2 {
+  color: var(--bleu-titre, #255299);
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h3 {
+  color: var(--dor, #ff8f60);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 115%; /* 27.6px */
+}
+
+.articl img {
+  border-radius: 0 24px 0 0;
+}
+
+.articl p {
+  overflow: hidden;
+  color: var(--dor, #ff8f60);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  /* p, card */
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card {
+  background: #255299;
+}
+
+.citation {
+  color: #fff;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  background: #255299;
+}
+
+footer {
+  background: #255299;
+  color: #ff8f60;
+}
 /* ====================================
 // rend les colones visibles
 // ==================================== */
+
+/* font-family: "Bakbak One", sans-serif;
+font-family: "M PLUS 1", sans-serif;
+font-family: "M PLUS 1p", sans-serif;
+font-family: "Satisfy", cursive; */
