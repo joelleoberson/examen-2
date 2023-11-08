@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 html {
   font-size: 16px;
 }
@@ -47,6 +51,15 @@ header {
   background: #255299;
 }
 
+header a {
+  color: var(--dor, #ff8f60);
+  /* menu */
+  font-family: Mplus 1p;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 115%; /* 27.6px */
+}
+
 .h1 {
   background-image: url(../img/fond_titre.png);
   background-size: cover;
@@ -75,6 +88,10 @@ h3 {
   font-size: 24px;
   font-weight: 800;
   line-height: 115%; /* 27.6px */
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 36px;
+  padding-bottom: 26px;
 }
 
 .articl img {
@@ -85,9 +102,7 @@ h3 {
   overflow: hidden;
   color: var(--dor, #ff8f60);
   text-overflow: ellipsis;
-  white-space: nowrap;
-
-  /* p, card */
+  padding: 0px 25px 25px 25px;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -95,6 +110,51 @@ h3 {
 
 .card {
   background: #255299;
+  width: 379px;
+  height: 346.443px;
+  flex-shrink: 0;
+}
+
+.lien {
+  color: var(--bleu-titre, #255299);
+  text-align: end;
+  font-family: M PLUS 1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 26px;
+  padding-bottom: 67px;
+}
+
+.horaires {
+  background: #e7e7e7;
+}
+
+.horaires h2 {
+  text-align: center;
+  padding-top: 37px;
+  padding-bottom: 23px;
+}
+
+.horaires p {
+  color: var(--bleu-titre, #255299);
+  text-align: center;
+  font-family: Mplus 1p;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%; /* 27.6px */
+  padding-bottom: 50px;
+}
+
+.horaires em {
+  color: var(--dor, #ff8f60);
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .citation {
@@ -104,6 +164,35 @@ h3 {
   font-size: 28px;
   font-weight: 400;
   background: #255299;
+  padding: 154px 163px;
+}
+
+.reservation p {
+  color: #fff;
+  font-family: Mplus 1p;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #255299;
+  width: 395px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 11px;
+}
+
+.reservation a {
+  color: var(--bleu-titre, #255299);
+  /* bouton */
+  font-family: Bakbak One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 277px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: var(--dor, #ff8f60);
 }
 
 footer {
