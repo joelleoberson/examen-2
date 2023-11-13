@@ -53,11 +53,11 @@ header {
 
 header a {
   color: var(--dor, #ff8f60);
-  /* menu */
   font-family: Mplus 1p;
   font-size: 24px;
   font-weight: 400;
   line-height: 115%; /* 27.6px */
+  padding: 36px;
 }
 
 .h1 {
@@ -72,7 +72,11 @@ h1 {
   font-family: "M PLUS 1", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  padding: 177px 320px;
+  padding: 177px 0px;
+}
+
+.selection h2 {
+  padding: 81px 0 13px 0;
 }
 
 h2 {
@@ -110,17 +114,20 @@ h3 {
 
 .card {
   background: #255299;
-  width: 379px;
-  height: 346.443px;
   flex-shrink: 0;
+  height: 100%;
+  border-radius: 0 24px 0 0;
+}
+
+.card-img {
+  width: 100%;
 }
 
 .lien {
   color: var(--bleu-titre, #255299);
   text-align: end;
-  font-family: M PLUS 1;
+  font-family: "M PLUS 1", sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   padding-top: 26px;
@@ -140,7 +147,7 @@ h3 {
 .horaires p {
   color: var(--bleu-titre, #255299);
   text-align: center;
-  font-family: Mplus 1p;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -157,6 +164,24 @@ h3 {
   line-height: normal;
 }
 
+.bouton-reservation {
+  color: var(--bleu-titre, #255299);
+  font-family: "Bakbak One", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 11px;
+  background: var(--dor, #ff8f60);
+  width: 174px;
+  height: 54px;
+  flex-shrink: 0;
+  margin: 39px 0px 121px 0px;
+  text-align: center;
+}
+
+.img-nuriture img {
+  width: 100%;
+}
+
 .citation {
   color: #fff;
   text-align: center;
@@ -169,7 +194,7 @@ h3 {
 
 .reservation p {
   color: #fff;
-  font-family: Mplus 1p;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -184,7 +209,7 @@ h3 {
 .reservation a {
   color: var(--bleu-titre, #255299);
   /* bouton */
-  font-family: Bakbak One;
+  font-family: "Bakbak One", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
