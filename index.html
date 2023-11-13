@@ -21,9 +21,9 @@
             <img src="img/logo.svg" alt="" />
           </div>
           <div class="col-5 offset-2 offset-lg-4 col-lg-6">
-            <a href="">Notre carte</a>
-            <a href="">Horaires</a>
-            <a href="">Réservation</a>
+            <a href="#notre-carte">Notre carte</a>
+            <a href="#horaires">Horaires</a>
+            <a href="#reservation">Réservation</a>
           </div>
         </div>
       </div>
@@ -87,11 +87,13 @@
     <div class="container">
       <div class="lien container">
         <div class="row">
-          <div class="col-12"><a href="">Notre carte</a></div>
+          <div class="col-12">
+            <a id="notre-carte" href="">Notre carte</a>
+          </div>
         </div>
       </div>
 
-      <div class="horaires container">
+      <div id="horaires" class="horaires container">
         <div class="row">
           <div class="col-12"><h2>Horaires</h2></div>
           <div class="col-12 col-lg-4">
@@ -114,23 +116,33 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="container bouton-reservation">
-        <div class="row">
-          <div class="col-12"><a href="">Réservations</a></div>
-        </div>
+    <div class="container bouton-reservation">
+      <div class="row">
+        <div class="col-12"><a href="">Réservations</a></div>
       </div>
+    </div>
 
+    <div class="background-gris">
       <div class="img-nuriture container">
         <div class="row">
-          <div class="col-12 col-lg-8"><img src="img/patte.png" alt="" /></div>
+          <div class="col-12 col-lg-8">
+            <img src="img/patte.png" alt="" />
+          </div>
           <div class="col-6 col-lg-4"><img src="img/plat.png" alt="" /></div>
-          <div class="col-6 col-lg-4"><img src="img/colore.png" alt="" /></div>
+          <div class="col-6 col-lg-4">
+            <img src="img/colore.png" alt="" />
+          </div>
           <div class="col-12 col-lg-4"><img src="img/bol.png" alt="" /></div>
-          <div class="col-12 col-lg-4"><img src="img/suchi.png" alt="" /></div>
+          <div class="col-12 col-lg-4">
+            <img src="img/suchi.png" alt="" />
+          </div>
         </div>
       </div>
+    </div>
 
+    <div class="container">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -145,7 +157,7 @@
         </div>
       </div>
 
-      <div class="container reservation">
+      <div id="reservation" class="container reservation">
         <div class="row">
           <div class="col-12 col-lg-6">
             <h2>Réservation</h2>
@@ -164,11 +176,15 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <footer>
+    <footer>
+      <div class="container">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-2">logo</div>
+            <div class="col-12 col-lg-2">
+              <img src="img/logo.svg" alt="" />
+            </div>
             <div class="col-12 col-lg-3">
               <p>
                 +41 22 123 45 67 <br />
@@ -177,10 +193,27 @@
                 1200 Genève
               </p>
             </div>
-            <div class="col-12 offset-lg-4 col-lg-3">a+p</div>
+            <div class="col-12 offset-lg-4 col-lg-3">
+              <p>retrouver nous sur</p>
+              <a
+                class="apli"
+                href="https://www.instagram.com/joelle_oberson/?hl=fr"
+                ><img src="img/insta.svg" alt=""
+              /></a>
+              <a class="apli" href="https://mail.google.com/mail/u/0/#inbox"
+                ><img src="img/mail.svg" alt=""
+              /></a>
+              <a class="apli" href="https://m.facebook.com/login/?locale=fr_FR"
+                ><img src="img/f.svg" alt=""
+              /></a>
+              <a class="apli" href="tel:0041787317041">
+                <img src="img/tellephone.svg" alt=""
+              /></a>
+              <p>©2023 Kintsu</p>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

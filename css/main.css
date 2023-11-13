@@ -53,11 +53,12 @@ header {
 
 header a {
   color: var(--dor, #ff8f60);
-  font-family: Mplus 1p;
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 115%; /* 27.6px */
-  padding: 36px;
+  margin: 25px;
+  text-decoration: none;
 }
 
 .h1 {
@@ -117,6 +118,8 @@ h3 {
   flex-shrink: 0;
   height: 100%;
   border-radius: 0 24px 0 0;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .card-img {
@@ -165,21 +168,32 @@ h3 {
 }
 
 .bouton-reservation {
-  color: var(--bleu-titre, #255299);
   font-family: "Bakbak One", sans-serif;
+  color: var(--dor, #ff8f60);
   font-size: 24px;
+  font-style: normal;
   font-weight: 400;
-  border-radius: 11px;
-  background: var(--dor, #ff8f60);
-  width: 174px;
-  height: 54px;
-  flex-shrink: 0;
-  margin: 39px 0px 121px 0px;
+  line-height: normal;
   text-align: center;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: var(--bleu-titre, #255299);
+  padding: 10px;
+  margin-bottom: 121px;
+  margin-top: 39px;
+}
+
+.bouton-reservation a {
+  text-decoration: none;
 }
 
 .img-nuriture img {
   width: 100%;
+}
+
+.background-gris {
+  background-color: #e7e7e7;
+  padding: -190px;
 }
 
 .citation {
@@ -200,10 +214,9 @@ h3 {
   font-weight: 400;
   line-height: normal;
   background: #255299;
-  width: 395px;
-  height: 51px;
   flex-shrink: 0;
   border-radius: 11px;
+  padding: 20px 21px 20px 12px;
 }
 
 .reservation a {
@@ -213,16 +226,21 @@ h3 {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  width: 277px;
-  height: 54px;
   flex-shrink: 0;
   border-radius: 11px;
   background: var(--dor, #ff8f60);
+  text-decoration: none;
 }
 
 footer {
   background: #255299;
   color: #ff8f60;
+  font-family: "Bakbak One", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.apli {
+  padding-right: 22px;
 }
 /* ====================================
 // rend les colones visibles
