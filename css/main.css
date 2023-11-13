@@ -239,9 +239,24 @@ footer {
   font-size: 14px;
   font-weight: 400;
 }
+
+footer .info {
+  padding-top: 61px;
+  padding-bottom: 44px;
+}
+
+footer .logo {
+  padding-top: 61px;
+}
+
+footer .icon {
+  padding-top: 61px;
+}
+
 .apli {
   padding-right: 22px;
 }
+
 /* ====================================
 // rend les colones visibles
 // ==================================== */
