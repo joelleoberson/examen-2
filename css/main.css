@@ -191,6 +191,11 @@ h3 {
   text-decoration: none;
 }
 
+.bouton-reservation :hover {
+  color: var(--bleu-titre, #255299);
+  background: var(--dor, #ff8f60);
+}
+
 .img-nuriture img {
   width: 100%;
 }
@@ -198,6 +203,10 @@ h3 {
 .background-gris {
   background-color: #e7e7e7;
   padding: -190px;
+}
+
+.img-nuriture .img-n:hover {
+  filter: grayscale(100%);
 }
 
 .citation {
@@ -208,6 +217,11 @@ h3 {
   font-weight: 400;
   background: #255299;
   padding: 154px 163px;
+}
+
+.reservation h2 {
+  margin-top: 89px;
+  margin-bottom: 15px;
 }
 
 .reservation p {
@@ -221,6 +235,7 @@ h3 {
   flex-shrink: 0;
   border-radius: 11px;
   padding: 20px 21px 20px 12px;
+  margin-bottom: 12px;
 }
 
 .reservation a {
@@ -234,6 +249,8 @@ h3 {
   border-radius: 11px;
   background: var(--dor, #ff8f60);
   text-decoration: none;
+  width: 277px;
+  height: 54px;
 }
 
 footer {
