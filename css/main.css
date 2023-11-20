@@ -63,6 +63,10 @@ header a {
   text-decoration: none;
 }
 
+.nav-up .nav {
+  display: flex;
+  flex-direction: row;
+}
 .h1 {
   background-image: url(../img/fond_titre.png);
   background-size: cover;
@@ -249,8 +253,10 @@ h3 {
   border-radius: 11px;
   background: var(--dor, #ff8f60);
   text-decoration: none;
-  width: 277px;
-  height: 54px;
+}
+
+.reservation img {
+  margin-top: 162px;
 }
 
 footer {
@@ -270,8 +276,13 @@ footer .logo {
   padding-top: 61px;
 }
 
-footer .icon {
-  padding-top: 61px;
+.footer-p-1 {
+  padding-top: 57px;
+  padding-bottom: 6px;
+}
+.footer-p-2 {
+  padding-top: 23px;
+  padding-bottom: 47px;
 }
 
 .apli {
