@@ -32,6 +32,10 @@ body {
   line-height: 1.25;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
 }
@@ -63,10 +67,15 @@ header a {
   text-decoration: none;
 }
 
-.nav-up .nav {
+header a :hover {
+  color: #fff;
+}
+
+.nav-up {
   display: flex;
   flex-direction: row;
 }
+
 .h1 {
   background-image: url(../img/fond_titre.png);
   background-size: cover;
@@ -207,6 +216,14 @@ h3 {
 .background-gris {
   background-color: #e7e7e7;
   padding: -190px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(231, 231, 231, 1) 17.01%,
+    rgba(231, 231, 231, 1) 100%
+  );
 }
 
 .img-nuriture .img-n:hover {
@@ -253,10 +270,21 @@ h3 {
   border-radius: 11px;
   background: var(--dor, #ff8f60);
   text-decoration: none;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.reservation a :hover {
+  color: var(--bleu-titre, #ff8f60);
+  background: var(--dor, #255299);
 }
 
 .reservation img {
   margin-top: 162px;
+  margin-bottom: 125px;
+  width: 100%;
 }
 
 footer {
@@ -310,6 +338,72 @@ footer .logo {
 
   .card {
     height: auto;
+  }
+
+  .burger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    width: 30px;
+    height: 19px;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    background: #255299;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+  }
+
+  .menu.is-active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .burger div {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #000;
+  }
+
+  .burger div:nth-child(1) {
+    top: 0;
+  }
+
+  .burger div:nth-child(2) {
+    top: 8px;
+  }
+
+  .burger div:nth-child(3) {
+    top: 16px;
+  }
+
+  .burger div {
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .burger.is-active div:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .burger.is-active div:nth-child(2) {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .burger.is-active div:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 }
 
