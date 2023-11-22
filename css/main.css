@@ -58,6 +58,7 @@ html {
   transition: opacity 0.3s;
   transform: translateX(100%);
   transition: transform 0.3s;
+  list-style-type: none;
 }
 
 .menu.is-active {
@@ -140,6 +141,7 @@ header a :hover {
 .nav-up {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .h1 {
@@ -394,7 +396,15 @@ footer .logo {
   }
   .h2-delicieuses {
     font-size: 20px;
-    text-align: center;
+  }
+
+  .lien {
+    padding-bottom: 19px;
+    padding-top: 19px;
+  }
+
+  .card-end {
+    margin-bottom: 0;
   }
 
   .nav {
@@ -408,6 +418,10 @@ footer .logo {
 
   .card {
     height: auto;
+  }
+
+  footer .logo {
+    text-align: center;
   }
 }
 
