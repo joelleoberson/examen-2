@@ -59,6 +59,10 @@ html {
   transform: translateX(100%);
   transition: transform 0.3s;
   list-style-type: none;
+  padding-top: 80px;
+  padding-right: 44px;
+  margin-bottom: 400px;
+  text-align: end;
 }
 
 .menu.is-active {

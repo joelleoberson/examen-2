@@ -9,10 +9,8 @@ var toggleMenu = function () {
 
 burger.addEventListener("click", toggleMenu);
 
-// Ajouter un gestionnaire d'événements pour chaque lien dans le menu
 menuLinks.forEach(function (link) {
   link.addEventListener("click", function () {
-    // Fermer le menu lorsque le lien est cliqué
     toggleMenu();
   });
 });
